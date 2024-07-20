@@ -1,0 +1,44 @@
+*{
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;
+ }
+ body{
+      background-color: #D72194;
+     }
+     .item{
+     	height: 450px;
+     	width: 663.5px;
+     	background-color: #7600C4;
+     	margin: 10px;
+     	background-position: center;
+     	background-size: cover;
+      opacity: 0.4;
+      transition: 1s ease-out;
+      filter:blur(5px);
+     }
+     .main{
+     	display: flex;
+     	flex-wrap: wrap;
+     	margin: auto;
+     	width: 90%;
+     	background-color: #7500b4;
+     	box-shadow: 0 0 58px 40px rebeccapurple;
+     }
+     .title{
+     	width: 100%;
+       font-family: "Bebas Neue", sans-serif;
+     	text-align: center;
+     	margin-top: 20px;
+     	margin-bottom: 20px;
+     	font-size: 70px;
+     	color:#B600AA;
+     }
+     .item:hover{
+      opacity: 1;
+      transition: 1s ease-out;
+      transform:scale(1.05);
+      filter:blur(0)
+     }
