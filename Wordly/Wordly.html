@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Wordly</title>
+	<link rel="stylesheet" href="Style.css">
+</head>
+<body>
+	<h1>𓆩♡𓆪Угадай слово𓆩♡𓆪</h1>
+	<div id = "EMHE" class="EMHE">
+		<label for="win">Победно</label> <!--34-->
+		<input type="radio" id="win" name='difficulty'checked value="win">
+		<label for="easier">Легчайше</label> <!--34-->
+		<input type="radio" id="easier" name='difficulty' value="easier">
+		<label for="easy">Легко</label> <!--34-->
+		<input type="radio" id="easy" name='difficulty' value="easy">
+		<label for="normal">Нормально</label> <!--56-->
+		<input type="radio" id="normal" name='difficulty'value="normal">
+		<label for="hard">Сложно</label><!--78-->
+		<input type="radio" id="hard" name='difficulty' value="hard">
+		<label for="hardly">Cложнее</label><!--78-->
+		<input type="radio" id="hardly" name='difficulty' value="hardly">
+		<label for="veryhard">Очень сложно</label><!--78-->
+		<input type="radio" id="veryhard" name='difficulty' value="veryhard">
+		<label for="insane">Безумно</label><!--9-->
+		<input type="radio" id="insane" name='difficulty' value="insane">
+		<label for="devilish">Дьявольски</label><!--9-->
+		<input type="radio" id="devilish" name='difficulty' value="devilish">
+		<label for="unrealistic">Нереально</label><!--9-->
+		<input type="radio" id="unrealistic" name='difficulty' value="unrealistic">
+	</div>
+	<button onclick = "startGame()" id="StartGame">Начать</button>
+	<div class="" id="word"></div>
+	<input type="text" class="" id="input" maxlength="1" placeholder="введите букву">
+	<button class="" id="submit" onclick="checkGuess()">угадать</button>
+	<div class="" id="message"></div>
+	<div id="popitka"></div>
+	<div id="SW"></div>
+	<script src="Script.js"></script>
+</body>
+</html>
